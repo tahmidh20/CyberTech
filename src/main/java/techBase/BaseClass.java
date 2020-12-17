@@ -1,4 +1,4 @@
-package cyberTechBase;
+package techBase;
 
 import java.io.FileInputStream;
 import java.io.FileNotFoundException;
