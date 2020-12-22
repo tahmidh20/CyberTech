@@ -36,7 +36,7 @@ public class SelectCourses extends BaseClass {
 	@And("user provides name, email, phone number to join the demo class")
 	public void user_provides_name_email_phone_number_to_join_the_demo_class() {
 	   
-		// course 1
+		// Marketing course 1
 		cb.nameTxtField(prop.getProperty("name"));
 	    cb.emailTxtField(prop.getProperty("EmailAddress"));
 	    cb.phoneTxtField(prop.getProperty("Phone"));
@@ -44,10 +44,10 @@ public class SelectCourses extends BaseClass {
 	}
 	    
 	
-	@Then("user continues to repeat the same steps for the rest of the courses in the Marketing Category")
-	public void user_continues_to_repeat_the_same_steps_for_the_rest_of_the_courses_in_the_marketing_category() {
+	@Then("user continues to repeat the same steps for the rest of the courses in all course categories")
+	public void user_continues_to_repeat_the_same_steps_for_the_rest_of_the_courses_in_all_course_categories() {
 		
-		// course 2
+		// Marketing course 2
 	    cb.clickSelectCourses();
 	    cb.NutritionClass_2();
 	    cb.nameTxtField(prop.getProperty("name"));
@@ -55,7 +55,7 @@ public class SelectCourses extends BaseClass {
 	    cb.phoneTxtField(prop.getProperty("Phone"));
 	    cb.JoinDemo();
 	  
-	    // course 3
+	    // Marketing course 3
 	    cb.clickSelectCourses();
 	    cb.PHPclass();
 	    cb.nameTxtField(prop.getProperty("name"));
@@ -63,13 +63,74 @@ public class SelectCourses extends BaseClass {
 	    cb.phoneTxtField(prop.getProperty("Phone"));
 	    cb.JoinDemo();
 	   
-	    // course 4
+	    // Marketing course 4 
 	    cb.clickSelectCourses();
 	    cb.WordPress();
 	    cb.nameTxtField(prop.getProperty("name"));
 	    cb.emailTxtField(prop.getProperty("EmailAddress"));
 	    cb.phoneTxtField(prop.getProperty("Phone"));
 	    cb.JoinDemo();
+	    
+	    // Project Management course 1
+	    cb.clickSelectCourses();
+	    cb.Learn3DModelling();
+	    cb.nameTxtField(prop.getProperty("name"));
+	    cb.emailTxtField(prop.getProperty("EmailAddress"));
+	    cb.phoneTxtField(prop.getProperty("Phone"));
+	    cb.JoinDemo();
+	    
+	    // Business course 1
+	    cb.clickSelectCourses();
+	    cb.PhotoshopTraining();
+	    cb.nameTxtField(prop.getProperty("name"));
+	    cb.emailTxtField(prop.getProperty("EmailAddress"));
+	    cb.phoneTxtField(prop.getProperty("Phone"));
+	    cb.JoinDemo();
+	    
+	 // Business course 2
+	    cb.clickSelectCourses();
+	    cb.PracticalSales();
+	    cb.nameTxtField(prop.getProperty("name"));
+	    cb.emailTxtField(prop.getProperty("EmailAddress"));
+	    cb.phoneTxtField(prop.getProperty("Phone"));
+	    cb.JoinDemo();
+	    
+	 // Business course 3
+	    cb.clickSelectCourses();
+	    cb.FinancialAnalyst();
+	    cb.nameTxtField(prop.getProperty("name"));
+	    cb.emailTxtField(prop.getProperty("EmailAddress"));
+	    cb.phoneTxtField(prop.getProperty("Phone"));
+	    cb.JoinDemo();
+	    
+	    // Finance course 1
+	    cb.clickSelectCourses();
+	    cb.UserExperienceDesign();
+	    cb.nameTxtField(prop.getProperty("name"));
+	    cb.emailTxtField(prop.getProperty("EmailAddress"));
+	    cb.phoneTxtField(prop.getProperty("Phone"));
+	    cb.JoinDemo();
+	    
+	    // Math course 1
+	    cb.clickSelectCourses();
+	    cb.JavaScript();
+	    cb.nameTxtField(prop.getProperty("name"));
+	    cb.emailTxtField(prop.getProperty("EmailAddress"));
+	    cb.phoneTxtField(prop.getProperty("Phone"));
+	    cb.JoinDemo();
+	    
+	    // Sales course 1
+	    cb.clickSelectCourses();
+	    cb.TrelloFundamentals();
+	    cb.nameTxtField(prop.getProperty("name"));
+	    cb.emailTxtField(prop.getProperty("EmailAddress"));
+	    cb.phoneTxtField(prop.getProperty("Phone"));
+	    cb.JoinDemo();
+	    
+	    
+	    
+	    
+	    
 	
 	}
 	

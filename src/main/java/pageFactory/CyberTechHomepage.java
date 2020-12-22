@@ -29,6 +29,20 @@ public class CyberTechHomepage extends BaseClass  {
 	//WebElement marketingClass_4;
 	By marketingClass_4 = By.id("mega-menu-item-612");
 	
+	By project_manage_Class_1 = By.id("mega-menu-item-620");
+	
+	By businessClass_1 = By.id("mega-menu-item-618");
+	
+	By businessClass_2 = By.id("mega-menu-item-621");
+	
+	By businessClass_3 = By.id("mega-menu-item-623");
+	
+	By financeClass_1 = By.id("mega-menu-item-619");
+	
+	By mathClass_1 = By.id("mega-menu-item-617");
+	
+	By salesClass_1 = By.id("mega-menu-item-622");
+	
 	//@FindBy(name = "name")
 	//WebElement FirstName;
 	By FirstName = By.name("name");
@@ -52,8 +66,6 @@ public class CyberTechHomepage extends BaseClass  {
 	
 	public void clickSelectCourses() {
 		driver.findElement(selectCourses).click();
-		
-		
 		
 	}
 	
@@ -89,7 +101,36 @@ public class CyberTechHomepage extends BaseClass  {
 	
 	public void WordPress() {
 		driver.findElement(marketingClass_4).click();
+			
+	}
+	
+	public void Learn3DModelling() {
+		driver.findElement(project_manage_Class_1).click();
+	}
+	
+	public void PhotoshopTraining() {
+		driver.findElement(businessClass_1).click();
+	}
+	
+	public void PracticalSales() { 
+		driver.findElement(businessClass_2).click();
+	}
+	
+	public void FinancialAnalyst() {
+		driver.findElement(businessClass_3).click();
 		
+	}
+	
+	public void UserExperienceDesign() {
+		driver.findElement(financeClass_1).click();
+	}
+	
+	public void JavaScript() {
+		driver.findElement(mathClass_1).click();
+	}
+	
+	public void TrelloFundamentals() {
+		driver.findElement(salesClass_1).click();
 	}
 	
 	public void JoinDemo() {

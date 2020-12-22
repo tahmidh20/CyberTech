@@ -25,7 +25,7 @@ Feature: Select Courses
     When user clicks on Select Courses 
     Then user clicks on first course in the Marketing Category 
     And user provides name, email, phone number to join the demo class
-    And user continues to repeat the same steps for the rest of the courses in the Marketing Category
+    And user continues to repeat the same steps for the rest of the courses in all course categories
     Then user closes browser
     
     
